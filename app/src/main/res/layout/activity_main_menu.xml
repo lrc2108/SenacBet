@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:text="SenacBet"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/activity_botao_lista_apostador"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:text="LISTA DE APOSTAFORES" />
+
+    <Button
+        android:id="@+id/activity_botao_lista_times"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_botao_lista_apostador"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="LISTA DE TIMES" />
+
+    <Button
+        android:id="@+id/activity_botao_cadastrar_apostador"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_botao_lista_times"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="CADASTRAR APOSTADOR" />
+
+    <Button
+        android:id="@+id/activity_botao_cadastrar_time"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_botao_cadastrar_apostador"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:text="CADASTRAR TIME" />
+</RelativeLayout>
